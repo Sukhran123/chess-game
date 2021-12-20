@@ -6,7 +6,7 @@ const piece = (name,point,colour) => {
 }
 const gameLogic = (() => {
   /* Creating black pieces */
-  const blackPawnImage = "/home/sukhran/chess-game/images/pawn.png"
+  const blackPawnImage = "/home/sukhran/Chess-game/images/pawn.png"
   const blackKingImage = "/home/sukhran/chess-game/images/blackKing.png"
   const blackQueenImage = "/home/sukhran/chess-game/images/blackQueen.png"
   const blackRookImage = "/home/sukhran/chess-game/images/blackRook.png"
