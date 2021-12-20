@@ -6,19 +6,19 @@ const piece = (name,point,colour) => {
 }
 const gameLogic = (() => {
   /* Creating black pieces */
-  const blackPawnImage = "/home/sukhran/chess-game/images/pawn.png"
-  const blackKingImage = "/home/sukhran/chess-game/images/blackKing.png"
-  const blackQueenImage = "/home/sukhran/chess-game/images/blackQueen.png"
-  const blackRookImage = "/home/sukhran/chess-game/images/blackRook.png"
-  const blackKnightImage = "/home/sukhran/chess-game/images/blackKnight.png"
-  const blackBishopImage = "/home/sukhran/chess-game/images/blackBishop.png"
+  const blackPawnImage = "/images/pawn.png"
+  const blackKingImage = "/images/blackKing.png"
+  const blackQueenImage = "/images/blackQueen.png"
+  const blackRookImage = "/images/blackRook.png"
+  const blackKnightImage = "/images/blackKnight.png"
+  const blackBishopImage = "/images/blackBishop.png"
   /* Creating white pieces */
-  const whiteRookImage = "/home/sukhran/chess-game/images/whiteRook.png"
-  const whiteKnightImage = "/home/sukhran/chess-game/images/whiteKnight.png"
-  const whiteBishopImage = "/home/sukhran/chess-game/images/whiteBishop.png"
-  const whiteKingImage = "/home/sukhran/chess-game/images/whiteKing.png"
-  const whiteQueenImage = "/home/sukhran/chess-game/images/whiteQueen.png"
-  const whitePawnImage = "/home/sukhran/chess-game/images/whitePawn.png"
+  const whiteRookImage = "/images/whiteRook.png"
+  const whiteKnightImage = "/images/whiteKnight.png"
+  const whiteBishopImage = "/images/whiteBishop.png"
+  const whiteKingImage = "/images/whiteKing.png"
+  const whiteQueenImage = "/images/whiteQueen.png"
+  const whitePawnImage = "/images/whitePawn.png"
   /* Creating images */
   const createImageElement = (choice) => {
     const image = document.createElement('img')
@@ -33,7 +33,7 @@ const gameLogic = (() => {
     } else if (choice === "blackKnight") {
       image.src = blackKnightImage
     } else if (choice === "blackBishop") {
-      image.src = blackPawnImage
+      image.src = blackBishopImage
     } else if (choice === "whiteRook") {
       image.src = whiteRookImage
     } else if (choice === "whiteKnight") {
