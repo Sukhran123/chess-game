@@ -6,19 +6,19 @@ const piece = (name,point,colour) => {
 }
 const gameLogic = (() => {
   /* Creating black pieces */
-  const blackPawnImage = "/images/pawn.png"
-  const blackKingImage = "/images/blackKing.png"
-  const blackQueenImage = "/images/blackQueen.png"
-  const blackRookImage = "/images/blackRook.png"
-  const blackKnightImage = "/images/blackKnight.png"
-  const blackBishopImage = "/images/blackBishop.png"
+  const blackPawnImage = "./images/pawn.png"
+  const blackKingImage = "./images/blackKing.png"
+  const blackQueenImage = "./images/blackQueen.png"
+  const blackRookImage = "./images/blackRook.png"
+  const blackKnightImage = "./images/blackKnight.png"
+  const blackBishopImage = "./images/blackBishop.png"
   /* Creating white pieces */
-  const whiteRookImage = "/images/whiteRook.png"
-  const whiteKnightImage = "/images/whiteKnight.png"
-  const whiteBishopImage = "/images/whiteBishop.png"
-  const whiteKingImage = "/images/whiteKing.png"
-  const whiteQueenImage = "/images/whiteQueen.png"
-  const whitePawnImage = "/images/whitePawn.png"
+  const whiteRookImage = "./images/whiteRook.png"
+  const whiteKnightImage = "./images/whiteKnight.png"
+  const whiteBishopImage = "./images/whiteBishop.png"
+  const whiteKingImage = "./images/whiteKing.png"
+  const whiteQueenImage = "./images/whiteQueen.png"
+  const whitePawnImage = "./images/whitePawn.png"
   /* Creating images */
   const createImageElement = (choice) => {
     const image = document.createElement('img')
