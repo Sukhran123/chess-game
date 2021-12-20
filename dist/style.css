@@ -1,0 +1,11 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    border-color: #BA8C63;
+    border-style: solid;
+}
+#backgroundContainer {
+    display: flex;
+    justify-content: center;
+}
